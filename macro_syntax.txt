@@ -1,0 +1,43 @@
+move 100 200  
+click
+find_keyword_rectangleregion_inverted blue 1000 500 1900 1000
+find_keyword_rectangleregion_bitwise_invert blue 1000 1 1900 500
+click 1000 1
+find_keyword_rectangleregion_bitwise_invert blue 1000 1 1900 500
+move 1000 1
+find_keyword_rectangleregion_bitwise_invert blue 1000 1 1900 500
+move 1900 500
+find_keyword_rectangleregion_bitwise_invert blue 1000 1 1900 500
+move 1900 500
+find_keyword_rectangleregion_bitwise_invert blue 1000 1 1900 500
+move 1431 236
+find_keyword_rectangleregion_bitwise_invert blue 1000 1 1900 500
+move 1431 236
+find_keyword_rectangleregion_bitwise_invert enjoy 1500 600 1900 1000
+move 1431 236
+find_keyword_rectangleregion_bitwise_invert ENJOY 1500 600 1900 1000
+move 1781 847
+find_keyword_rectangleregion_bitwise_invert ENJOY 1500 600 1900 1000
+move 1781 847
+find_keyword_rectangleregion_bitwise_invert 告知 1000 200 1900 500
+move 1781 847
+find_keyword_rectangleregion_bitwise_invert INSTA 1000 200 1900 500
+move 1781 847
+find_keyword_rectangleregion_bitwise_invert OPEN 1000 200 1900 500
+move 1577 289
+find_keyword_rectangleregion_bitwise_invert OPEN 1000 200 1900 500
+move 1577 289
+find_keyword_rectangleregion OPEN 1000 200 1900 500
+move 1673 283
+find_keyword_rectangleregion OPEN 1000 200 1900 500
+move 1673 283
+find_keyword_rectangleregion OPEN 1000 200 1900 500
+move 1673 283
+find_keyword_rectangleregion OPEN 1000 500 1900 1000
+find_keyword_rectangleregion_bitwise_invert OPEN 1000 500 1900 1000
+move 1621 921
+find_keyword_rectangleregion OPEN 1000 500 1900 1000
+find_keyword_rectangleregion_bitwise_invert OPEN 1000 500 1900 1000
+move 100 200
+sleep 5
+move 100 300
